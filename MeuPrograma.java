@@ -13,7 +13,7 @@ public class MeuPrograma {
     public static void main(String[] args) {
         if (args.length != 3) {
             System.err.println("Uso: java MeuPrograma <arquivo_entrada> \"<origem_r,c>\" \"<destino_r,c>\"");
-            System.err.println("Exemplo: java MeuPrograma teste_3x3.txt \"0,0\" \"2,2\"");
+            System.err.println("Exemplo: java MeuPrograma matrix_4x4.txt \"0,0\" \"2,2\"");
             return;
         }
 
